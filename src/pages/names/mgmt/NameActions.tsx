@@ -43,11 +43,11 @@ export function NameActions({
         trigger={["click"]}
         overlay={() => (
           <Menu>
-            {/* Transfer Krist button */}
+            {/* Transfer Bckn button */}
             <Menu.Item key="1" icon={<SwapOutlined />}
               onClick={() => promptAuth(false, () =>
                 openSendTx(undefined, nameWithSuffix))}>
-              {tStr("actionsTransferKrist")}
+              {tStr("actionsTransferBckn")}
             </Menu.Item>
 
             <Menu.Divider />
@@ -81,7 +81,7 @@ export function NameActions({
         onClick={() => promptAuth(false, () =>
           openSendTx(undefined, nameWithSuffix))}
       >
-        {tStr("actionsSendKrist")}
+        {tStr("actionsSendBckn")}
       </Button>
     ),
   [tStr, isOwn, nameWithSuffix, openSendTx, name.a, name.name,

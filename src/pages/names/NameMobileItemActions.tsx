@@ -63,11 +63,11 @@ export function NameMobileItemActions({
       {tStr("actionsViewOriginalOwner")}
     </Menu.Item>}
 
-    {/* Send/transfer Krist */}
+    {/* Send/transfer Bckn */}
     <Menu.Item key="4" icon={isOwn ? <SwapOutlined /> : <SendOutlined />}
       onClick={() => promptAuth(false, () =>
         openSendTx(undefined, nameWithSuffix))}>
-      {tStr(isOwn ? "actionsTransferKrist" : "actionsSendKrist")}
+      {tStr(isOwn ? "actionsTransferBckn" : "actionsSendBckn")}
     </Menu.Item>
 
     {/* Name management actions if we own the name */}

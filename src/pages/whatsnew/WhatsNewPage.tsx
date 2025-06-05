@@ -55,7 +55,7 @@ export function WhatsNewPage(): JSX.Element {
   >
     {/* KristWeb */}
     <Title level={2}>
-      {t("whatsNew.titleKristWeb")}
+      {t("whatsNew.titleBcknWeb")}
       <GithubLink repoURL={kristWebRepo} />
     </Title>
 
@@ -91,7 +91,7 @@ export function WhatsNewPage(): JSX.Element {
 
     {/* Krist */}
     <Title level={2} style={{ marginTop: 16 }}>
-      {t("whatsNew.titleKrist")}
+      {t("whatsNew.titleBckn")}
       <GithubLink repoURL={kristPackage.repository} />
     </Title>
 
