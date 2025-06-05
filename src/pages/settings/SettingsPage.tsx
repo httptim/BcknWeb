@@ -13,7 +13,6 @@ import { Link } from "react-router-dom";
 import { PageLayout, PageLayoutProps } from "@layout/PageLayout";
 import { SettingsGroup, booleanSetting, integerSetting } from "./SettingsGroup";
 import { SettingBoolean } from "./SettingBoolean";
-import { SettingLink } from "./SettingLink";
 import { getLanguageItems } from "./translations/LanguageItem";
 
 import { useSettingsManage } from "./manage/SettingsManage";
@@ -90,8 +89,6 @@ export function SettingsPage(): JSX.Element {
         subKey="Privacy"
         icon={<LockOutlined />}
         settings={[
-          <SettingLink key="setting-privacy"
-            link="/credits#privacy" titleKey="settings.privacyInfo" />,
           booleanSetting("errorReporting"),
           booleanSetting("messageOnErrorReport")
         ]}
