@@ -74,10 +74,10 @@ export const DEFAULT_CONSTANTS: KristConstants = {
   wallet_version: 16,
   nonce_max_size: 24,
   name_cost: 500,
-  min_work: 100,
+  min_work: 1,
   max_work: 100000,
   work_factor: 0.025,
-  seconds_per_block: 60
+  seconds_per_block: 300
 };
 
 export interface KristCurrency {
@@ -87,8 +87,8 @@ export interface KristCurrency {
   currency_symbol: string;
 }
 export const DEFAULT_CURRENCY: KristCurrency = {
-  address_prefix: "k", name_suffix: "kst",
-  currency_name: "Krist", currency_symbol: "KST"
+  address_prefix: "k", name_suffix: "bckn",
+  currency_name: "Bckn", currency_symbol: "BCN"
 };
 
 export interface KristMOTDBase {

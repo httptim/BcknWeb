@@ -48,7 +48,7 @@ export function getInitialNodeState(): State {
     // Info from the MOTD
     syncNode: (() => {
       const conf = (localStorage.getItem("syncNode") || packageJson.defaultSyncNode);
-      if (conf === "https://krist.ceriat.net") return packageJson.defaultSyncNode;
+      if (conf === "https://krist.ceriat.net" || conf === "https://krist.dev") return packageJson.defaultSyncNode;
       return conf;
     })(),
     package: DEFAULT_PACKAGE,

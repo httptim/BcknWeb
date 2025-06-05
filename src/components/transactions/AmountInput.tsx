@@ -55,9 +55,9 @@ export function AmountInput({
     {...props}
   >
     <Input.Group compact style={{ display: "flex" }}>
-      {/* Prepend the Krist symbol if possible. Note that ant's InputNumber
+      {/* Prepend the Bckn symbol if possible. Note that ant's InputNumber
         * doesn't support addons, so this has to be done manually. */}
-      {(currency_symbol || "KST") === "KST" && (
+      {(currency_symbol || "BCN") === "BCN" && (
         <span className="ant-input-group-addon kw-fake-addon currency-prefix">
           <KristSymbol />
         </span>
@@ -108,7 +108,7 @@ export function AmountInput({
 
       {/* Currency suffix */}
       <span className="ant-input-group-addon kw-fake-addon">
-        {currency_symbol || "KST"}
+        {currency_symbol || "BCN"}
       </span>
 
       {/* Max value button */}

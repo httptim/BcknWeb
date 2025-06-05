@@ -1,405 +1,408 @@
 {
   "app": {
-    "name": "BcknWeb"
+    "name": "KristWeb"
   },
 
   "nav": {
     "connection": {
-      "online": "In linea",
-      "offline": "Non in linea",
-      "connecting": "Connessione in corso..."
+      "online": "Online",
+      "offline": "Offline",
+      "connecting": "Connecting"
     },
 
     "search": {
-      "placeholder": "Cerca nella rete Bckn",
-      "placeholderShortcut": "Cerca nella rete Bckn ({{shortcut}})",
-      "placeholderShort": "Cerca...",
-      "rateLimitHit": "Per favore rallenta.",
-      "noResults": "Nessun risultato.",
+      "placeholder": "Search the Krist network",
+      "placeholderShortcut": "Search the Krist network ({{shortcut}})",
+      "placeholderShort": "Search...",
+      "rateLimitHit": "Please slow down.",
+      "noResults": "No results.",
 
-      "resultAddress": "Indirizzo",
-      "resultName": "Nome",
-      "resultNameOwner": "Proprietà di <1 />",
-      "resultBlockID": "ID blocco",
-      "resultBlockIDMinedBy": "Minato da <1 />",
-      "resultTransactionID": "ID transazione",
-      "resultTransactions": "Transazioni",
-      "resultTransactionsAddress": "Cerca transazioni che includono <1 />",
-      "resultTransactionsAddressResult": "<0>{{count, number}}</0> transazione include <2 />",
-      "resultTransactionsAddressResult_plural": "<0>{{count, number}}</0> transazioni includono <2 />",
-      "resultTransactionsAddressResultEmpty": "Nessuna transazione che include <1 />",
-      "resultTransactionsName": "Ricerca per transazioni che includono <1 />",
-      "resultTransactionsNameResult": "<0>{{count, number}}</0> transazione inviata a <2 />",
+      "resultAddress": "Address",
+      "resultName": "Name",
+      "resultNameOwner": "Owned by <1 />",
+      "resultBlockID": "Block ID",
+      "resultBlockIDMinedBy": "Mined by <1 />",
+      "resultTransactionID": "Transaction ID",
+      "resultTransactions": "Transactions",
+      "resultTransactionsAddress": "Search for transactions involving <1 />",
+      "resultTransactionsAddressResult": "<0>{{count, number}}</0> transaction involving <2 />",
+      "resultTransactionsAddressResult_plural": "<0>{{count, number}}</0> transactions involving <2 />",
+      "resultTransactionsAddressResultEmpty": "No transactions involving <1 />",
+      "resultTransactionsName": "Search for transactions involving <1 />",
+      "resultTransactionsNameResult": "<0>{{count, number}}</0> transaction sent to <2 />",
       "resultTransactionsNameResult_plural": "<0>{{count, number}}</0> transactions sent to <2 />",
-      "resultTransactionsNameResultEmpty": "Nessuna transazione inviata a <1 />",
-      "resultTransactionsMetadata": "Ricerca di metadati che contengono <1 />",
-      "resultTransactionsMetadataResult": "<0>{{count, number}}</0> transazione con metadati che contengono <2 />",
-      "resultTransactionsMetadataResult_plural": "<0>{{count, number}}</0> transazioni con metadati che contengono <2 />",
-      "resultTransactionsMetadataResultEmpty": "Nessuna transazione con metadati che contengono <1 />"
+      "resultTransactionsNameResultEmpty": "No transactions sent to <1 />",
+      "resultTransactionsMetadata": "Searching for metadata containing <1 />",
+      "resultTransactionsMetadataResult": "<0>{{count, number}}</0> transaction with metadata containing <2 />",
+      "resultTransactionsMetadataResult_plural": "<0>{{count, number}}</0> transactions with metadata containing <2 />",
+      "resultTransactionsMetadataResultEmpty": "No transactions with metadata containing <1 />"
     },
 
-    "send": "Invia",
-    "sendLong": "Invia Bckn",
-    "request": "Richiedi",
-    "requestLong": "Richiedi Bckn",
-    "sort": "Ordina risultati",
+    "send": "Send",
+    "sendLong": "Send Krist",
+    "request": "Request",
+    "requestLong": "Request Krist",
+    "sort": "Sort results",
 
-    "settings": "Impostazioni",
-    "more": "Di più"
+    "settings": "Settings",
+    "more": "More"
   },
 
   "sidebar": {
-    "totalBalance": "Saldo Totale",
+    "totalBalance": "Total Balance",
     "dashboard": "Dashboard",
-    "myWallets": "I miei portafogli",
-    "addressBook": "Rubrica",
-    "transactions": "Transazioni",
-    "names": "Nomi",
-    "mining": "Minando",
-    "network": "Rete",
-    "blocks": "Blocchi",
-    "statistics": "Statistiche",
-    "madeBy": "Creato da <1>{{authorName}}</1>",
-    "hostedBy": "Ospitato da <1>{{host}}</1>",
+    "myWallets": "My Wallets",
+    "addressBook": "Address Book",
+    "myTransactions": "My Transactions",
+    "myNames": "My Names",
+    "allTransactions": "All Transactions",
+    "allNames": "All Names",
+    "mining": "Mining",
+    "blocks": "Blocks",
+    "personal": "Personal",
+    "global": "Global",
+    "statistics": "Statistics",
+    "madeBy": "Made by <1>{{authorName}}</1>",
+    "hostedBy": "Hosted by <1>{{host}}</1>",
     "github": "GitHub",
-    "credits": "Crediti",
-    "whatsNew": "Cosa c'è di nuovo",
+    "credits": "Credits",
+    "whatsNew": "What's new",
 
-    "updateTitle": "Aggiornamento disponibile!",
-    "updateDescription": "Una nuova versione di BcknWeb è disponibile. Per favore ricarica.",
-    "updateReload": "Ricarica"
+    "updateTitle": "Update available!",
+    "updateDescription": "A new version of KristWeb is available. Please reload.",
+    "updateReload": "Reload"
   },
 
   "dialog": {
-    "close": "Chiudi",
-    "yes": "Sì",
+    "close": "Close",
+    "yes": "Yes",
     "no": "No",
     "ok": "OK",
-    "cancel": "Annulla"
+    "cancel": "Cancel"
   },
 
   "pagination": {
-    "justPage": "Pagina {{page}}",
-    "pageWithTotal": "Pagina {{page}} di {{total}}"
+    "justPage": "Page {{page}}",
+    "pageWithTotal": "Page {{page}} of {{total}}"
   },
 
-  "error": "Errore",
+  "error": "Error",
   "errorBoundary": {
-    "title": "Errore critico",
-    "description": "È stato riscontrato un errore critico in BcknWeb e quindi la pagina è stata terminata. Vedi la console per i dettagli.",
-    "sentryNote": "Questo errore è stato segnalato automaticamente"
+    "title": "Critical error",
+    "description": "A critical error has occurred in KristWeb, so this page was terminated. See console for details.",
+    "sentryNote": "This error was automatically reported."
   },
-  "errorReported": "Un errore è stato automaticamente segnalato. Vedi la console per dettagli.",
+  "errorReported": "An error was automatically reported. See console for details.",
 
-  "loading": "Caricamendo...",
+  "loading": "Loading...",
 
-  "copy": "Copiato negli appunti",
-  "copied": "Copiato!",
+  "copy": "Copy to clipboard",
+  "copied": "Copied!",
 
   "pageNotFound": {
-    "resultTitle": "Pagina non trovata",
-    "nyiTitle": "Non ancora implementato",
-    "nyiSubTitle": "Questa funzionalità non è ancora disponibile",
-    "buttonGoBack": "Torna indietro"
+    "resultTitle": "Page not found",
+    "nyiTitle": "Not yet implemented",
+    "nyiSubTitle": "This feature will be coming soon!",
+    "buttonGoBack": "Go back"
   },
 
-  "contextualAddressUnknown": "Sconosciuto",
-  "contextualAddressNonExistentTooltip": "Questo indirizzo non è stato ancora inizializzato nella rete Bckn.",
-  "contextualAddressNonExistentTooltip2": "Questo indirizzo non ha una cronologia delle transazioni.",
+  "contextualAddressUnknown": "Unknown",
+  "contextualAddressNonExistentTooltip": "This address has not yet been initialised on the Krist network.",
+  "contextualAddressNonExistentTooltip2": "This address has no transaction history yet.",
 
   "typeahead": {
-    "emptyLabel": "Nessuna corrispondenza trovata.",
-    "paginationText": "Mostra risultati aggiuntivi..."
+    "emptyLabel": "No matches found.",
+    "paginationText": "Display additional results..."
   },
 
   "masterPassword": {
-    "dialogTitle": "Password generale",
-    "passwordPlaceholder": "Password generale",
-    "passwordConfirmPlaceholder": "Conferma password generale",
-    "createPassword": "Crea password",
-    "logIn": "Entra",
-    "forgotPassword": "Password dimenticata?",
-    "intro2": "Inserisci una <1>password generale</1> per criptare le chiavi private dei tuoi portafogli. Saranno salvati nel tuo browser e ti sarà chiesto di inserire la password generale per decriptarle ogni sessione.",
-    "learnMore": "Ulteriori informazioni",
-    "errorPasswordRequired": "La password è richiesta.",
-    "errorPasswordLength": "Deve essere almeno un carattere.",
-    "errorPasswordUnset": "La password generale non è stata ancora impostata.",
-    "errorPasswordIncorrect": "Password errata.",
-    "errorPasswordInequal": "Le password devono combaciare.",
-    "errorStorageCorrupt": "Memoria dei portafogli corrotta.",
-    "errorNoPassword": "La password generale è richiesta.",
-    "errorUnknown": "Errore sconosciuto.",
-    "helpWalletStorageTitle": "Aiuto: Memoria portafogli",
-    "popoverTitle": "Decripta portafogli",
-    "popoverTitleEncrypt": "Cripta portafogli",
-    "popoverAuthoriseButton": "Autorizza",
-    "popoverDescription": "Inserisci la tua password generale per decriptare i portafogli.",
-    "popoverDescriptionEncrypt": "Inserisci la tua password generale per criptare e decriptare i portafogli.",
-    "forcedAuthWarning": "Sei entrato automaticamente da un'impostazione di debug non sicura.",
-    "earlyAuthError": "L'applicazione non è stata caricata completamente, ricarica per favore.",
+    "dialogTitle": "Master password",
+    "passwordPlaceholder": "Master password",
+    "passwordConfirmPlaceholder": "Confirm master password",
+    "createPassword": "Create password",
+    "logIn": "Log in",
+    "forgotPassword": "Forgot password?",
+    "intro2": "Enter a <1>master password</1> to encrypt your wallet private keys. They will be saved in your browser's local storage, and you will be asked for the master password to decrypt them once per session.",
+    "learnMore": "learn more",
+    "errorPasswordRequired": "Password is required.",
+    "errorPasswordLength": "Must be at least 1 character.",
+    "errorPasswordUnset": "Master password has not been set up.",
+    "errorPasswordIncorrect": "Incorrect password.",
+    "errorPasswordInequal": "Passwords must match.",
+    "errorStorageCorrupt": "Wallet storage is corrupted.",
+    "errorNoPassword": "Master password is required.",
+    "errorUnknown": "Unknown error.",
+    "helpWalletStorageTitle": "Help: Wallet storage",
+    "popoverTitle": "Decrypt wallets",
+    "popoverTitleEncrypt": "Encrypt wallets",
+    "popoverAuthoriseButton": "Authorise",
+    "popoverDescription": "Enter your master password to decrypt your wallets.",
+    "popoverDescriptionEncrypt": "Enter your master password to encrypt and decrypt your wallets.",
+    "forcedAuthWarning": "You were automatically logged in by an insecure debug setting.",
+    "earlyAuthError": "The app has not loaded fully yet, please try again.",
 
     "reset": {
-      "modalTitle": "Reimposta password generale",
-      "description": "Sei sicuro di voler reimpostare la password generale? <strong>Tutti i tuoi portafogli saranno eliminati.</strong> Assicurati di <3>esportare un backup</3> prima!",
-      "buttonConfirm": "Reimposta ed elimina",
+      "modalTitle": "Reset master password",
+      "description": "Are you sure you want to reset your master password? <strong>All your wallets will be deleted.</strong> Make sure to <3>export a backup</3> first!",
+      "buttonConfirm": "Reset & delete",
 
-      "modalTitle2": "ELIMINA TUTTI I PORTAFOGLI",
-      "description2": "Sei DAVVERO sicuro di voler <strong>ELIMINARE TUTTI I PORTAFOGLI</strong>?",
-      "buttonConfirm2": "Sì, sono sicuro [{{n}}]",
-      "buttonConfirmFinal": "Sì, sono sicuro!"
+      "modalTitle2": "DELETE ALL WALLETS",
+      "description2": "Are you REALLY sure you want to <strong>DELETE ALL YOUR WALLETS</strong>?",
+      "buttonConfirm2": "Yes, I'm sure [{{n}}]",
+      "buttonConfirmFinal": "Yes, I'm sure!"
     },
 
     "change": {
-      "modalTitle": "Cambia password generale"
+      "modalTitle": "Change master password"
     }
   },
 
   "myWallets": {
-    "title": "Portafogli",
-    "manageBackups": "Gestisci backup",
-    "importBackup": "Importa portafogli",
-    "exportBackup": "Esporta portafogli",
-    "createWallet": "Crea portafoglio",
-    "addExistingWallet": "Aggiungi portafoglio esistente",
-    "searchPlaceholder": "Cerca portafogli...",
-    "categoryDropdownAll": "Tutte le categorie",
-    "columnLabel": "Etichetta",
-    "columnAddress": "Indirizzo",
-    "columnBalance": "Saldo",
-    "columnNames": "Nomi",
-    "columnCategory": "Categoria",
-    "columnFirstSeen": "Visto la prima volta",
-    "nameCount": "{{count, number}} nome",
-    "nameCount_plural": "{{count, number}} nami",
-    "nameCountEmpty": "Nessun nome",
-    "firstSeen": "Visto per la prima volta il {{date}}",
-    "firstSeenMobile": "Visto per la prima volta: <1 />",
+    "title": "Wallets",
+    "manageBackups": "Manage backups",
+    "importBackup": "Import wallets",
+    "exportBackup": "Export wallets",
+    "createWallet": "Create wallet",
+    "addExistingWallet": "Add existing wallet",
+    "searchPlaceholder": "Search wallets...",
+    "categoryDropdownAll": "All categories",
+    "columnLabel": "Label",
+    "columnAddress": "Address",
+    "columnBalance": "Balance",
+    "columnNames": "Names",
+    "columnCategory": "Category",
+    "columnFirstSeen": "First Seen",
+    "nameCount": "{{count, number}} name",
+    "nameCount_plural": "{{count, number}} names",
+    "nameCountEmpty": "No names",
+    "firstSeen": "First seen {{date}}",
+    "firstSeenMobile": "First seen: <1 />",
 
-    "walletCount": "{{count, number}} portafoglio",
-    "walletCount_plural": "{{count, number}} portafogli",
-    "walletCountEmpty": "Nessun portafoglio",
+    "walletCount": "{{count, number}} wallet",
+    "walletCount_plural": "{{count, number}} wallets",
+    "walletCountEmpty": "No wallets",
 
-    "noWalletsHint": "Nessun portafoglio",
-    "noWalletsText": "Aggiungi o crea un portafoglio cliccando sul <1 /> menu in alto a destra!",
+    "noWalletsHint": "No wallets yet",
+    "noWalletsText": "Add or create a wallet by clicking the <1 /> menu in the top right!",
 
-    "actionsViewAddress": "Mostra indirizzo",
-    "actionsEditTooltip": "Modifica portafoglio",
-    "actionsSendTransaction": "Invia Bckn",
-    "actionsWalletInfo": "Informazioni portafoglio",
-    "actionsWalletForceCreate": "Forza creazione",
-    "actionsDelete": "Elimina portafoglio",
-    "actionsDeleteConfirm": "Sei sicuro di voler eliminare questo portafoglio?",
-    "actionsDeleteConfirmDescription": "Se non hai salvato un backup o la password, sarà perduto per sempre!",
+    "actionsViewAddress": "View address",
+    "actionsEditTooltip": "Edit wallet",
+    "actionsSendTransaction": "Send Krist",
+    "actionsWalletInfo": "Wallet info",
+    "actionsWalletForceCreate": "Force create",
+    "actionsDelete": "Delete wallet",
+    "actionsDeleteConfirm": "Are you sure you want to delete this wallet?",
+    "actionsDeleteConfirmDescription": "If you haven't backed it up or saved its password, it will be lost forever!",
 
     "tagDontSave": "Temp",
-    "tagDontSaveTooltip": "Portafoglio temporaneo",
+    "tagDontSaveTooltip": "Temporary wallet",
 
     "info": {
-      "title": "Informazioni portafoglio - {{address}}",
+      "title": "Wallet info - {{address}}",
 
-      "titleBasicInfo": "Informazioni di base",
+      "titleBasicInfo": "Basic info",
       "id": "ID",
-      "label": "Etichetta",
-      "category": "Categoria",
-      "username": "Nome utente",
+      "label": "Label",
+      "category": "Category",
+      "username": "Username",
       "password": "Password",
-      "privatekey": "Chiave privata",
-      "format": "Formato",
+      "privatekey": "Private key",
+      "format": "Format",
 
-      "titleSyncedInfo": "Informazioni sincronizzate",
-      "address": "Indirizzo",
-      "balance": "Saldo",
-      "names": "Quantità nomi",
-      "firstSeen": "Visto la prima volta",
-      "existsOnNetwork": "Esiste nella rete",
-      "lastSynced": "Ultima sincronizzazione",
+      "titleSyncedInfo": "Synced info",
+      "address": "Address",
+      "balance": "Balance",
+      "names": "Name count",
+      "firstSeen": "First seen",
+      "existsOnNetwork": "Exists on network",
+      "lastSynced": "Last synced",
 
-      "titleAdvancedInfo": "Informazioni avanzate",
-      "encPassword": "Password criptata",
-      "encPrivatekey": "Chiave privata criptata",
-      "saved": "Salvato",
+      "titleAdvancedInfo": "Advanced info",
+      "encPassword": "Encrypted password",
+      "encPrivatekey": "Encrypted private key",
+      "saved": "Saved",
 
-      "revealLink": "Mostra",
-      "hideLink": "Nascondi",
+      "revealLink": "Reveal",
+      "hideLink": "Hide",
 
-      "true": "Vero",
-      "false": "Falso"
+      "true": "True",
+      "false": "False"
     },
 
     "login": {
-      "appMasterPasswordRequired": "Devi essere autenticato per forzare la creazione di portafogli.",
-      "errorAuthFailed": "Impossibile forzare la creazione dell'indirizzo.",
-      "errorWalletDecrypt": "Impossibile decriptare il portafoglio."
+      "appMasterPasswordRequired": "You must be authenticated to force create wallets.",
+      "errorAuthFailed": "Could not force create the address.",
+      "errorWalletDecrypt": "Your wallet could not be decrypted."
     }
   },
 
   "addressBook": {
-    "title": "Rubrica",
+    "title": "Address Book",
 
-    "contactCount": "{{count, number}} contatto",
-    "contactCount_plural": "{{count, number}} contatti",
-    "contactCountEmpty": "Nessun contatto",
+    "contactCount": "{{count, number}} contact",
+    "contactCount_plural": "{{count, number}} contacts",
+    "contactCountEmpty": "No contacts",
 
-    "buttonAddContact": "Aggiungi contatto",
+    "buttonAddContact": "Add contact",
 
-    "columnLabel": "Etichetta",
-    "columnAddress": "Indirizzo",
+    "columnLabel": "Label",
+    "columnAddress": "Address",
 
-    "actionsViewAddress": "Mostra indirizzo",
-    "actionsViewName": "Mostra nome",
-    "actionsEditTooltip": "Modifica contatto",
-    "actionsSendTransaction": "Invia Bckn",
-    "actionsDelete": "Elimina contatto",
-    "actionsDeleteConfirm": "Sei sicuro di voler eliminare questo contatto?"
+    "actionsViewAddress": "View address",
+    "actionsViewName": "View name",
+    "actionsEditTooltip": "Edit contact",
+    "actionsSendTransaction": "Send Krist",
+    "actionsDelete": "Delete contact",
+    "actionsDeleteConfirm": "Are you sure you want to delete this contact?"
   },
 
   "myTransactions": {
-    "title": "Transazioni",
-    "searchPlaceholder": "Cerca transazioni...",
-    "columnFrom": "Da",
-    "columnTo": "A",
-    "columnValue": "Valore",
-    "columnTime": "Tempo"
+    "title": "Transactions",
+    "searchPlaceholder": "Search transactions...",
+    "columnFrom": "From",
+    "columnTo": "To",
+    "columnValue": "Value",
+    "columnTime": "Time"
   },
 
   "addWallet": {
-    "dialogTitle": "Aggiungi portafoglio",
-    "dialogTitleCreate": "Crea portafoglio",
-    "dialogTitleEdit": "Modifica portafoglio",
-    "dialogOkAdd": "Aggiungi",
-    "dialogOkCreate": "Crea",
-    "dialogOkEdit": "Salva",
-    "dialogAddExisting": "Aggiungi portafoglio esistente",
+    "dialogTitle": "Add wallet",
+    "dialogTitleCreate": "Create wallet",
+    "dialogTitleEdit": "Edit wallet",
+    "dialogOkAdd": "Add",
+    "dialogOkCreate": "Create",
+    "dialogOkEdit": "Save",
+    "dialogAddExisting": "Add existing wallet",
 
-    "walletLabel": "Etichetta portafoglio",
-    "walletLabelPlaceholder": "Etichetta portafoglio (opzionale)",
-    "walletLabelMaxLengthError": "Non più lungo di 32 caratteri",
-    "walletLabelWhitespaceError": "Non può contenere solo spazi",
+    "walletLabel": "Wallet label",
+    "walletLabelPlaceholder": "Wallet label (optional)",
+    "walletLabelMaxLengthError": "No longer than 32 characters",
+    "walletLabelWhitespaceError": "Must not be only spaces",
 
-    "walletCategory": "Categoria portafoglio",
-    "walletCategoryDropdownNone": "Nessuna categoria",
-    "walletCategoryDropdownNew": "Nuovo",
-    "walletCategoryDropdownNewPlaceholder": "Nome categoria",
+    "walletCategory": "Wallet category",
+    "walletCategoryDropdownNone": "No category",
+    "walletCategoryDropdownNew": "New",
+    "walletCategoryDropdownNewPlaceholder": "Category name",
 
-    "walletAddress": "Indirizzo portafoglio",
-    "walletUsername": "Nome utente portafoglio",
-    "walletUsernamePlaceholder": "Nome utente portafoglio",
-    "walletPassword": "Password portafoglio",
-    "walletPasswordPlaceholder": "Password portafoglio",
-    "walletPasswordWarning": "Assicurati di salvarla da qualche parte <1>sicura</1>!",
-    "walletPasswordRegenerate": "Rigenera",
-    "walletPrivatekey": "Chiave privata portafoglio",
-    "walletPrivatekeyPlaceholder": "Chiave privata portafoglio",
+    "walletAddress": "Wallet address",
+    "walletUsername": "Wallet username",
+    "walletUsernamePlaceholder": "Wallet username",
+    "walletPassword": "Wallet password",
+    "walletPasswordPlaceholder": "Wallet password",
+    "walletPasswordWarning": "Make sure to save this somewhere <1>secure</1>!",
+    "walletPasswordRegenerate": "Regenerate",
+    "walletPrivatekey": "Wallet private key",
+    "walletPrivatekeyPlaceholder": "Wallet private key",
 
-    "advancedOptions": "Opzioni avanzate",
+    "advancedOptions": "Advanced options",
 
-    "walletFormat": "Formato portafoglio",
-    "walletFormatBcknWallet": "BcknWallet, KWallet (consigliato)",
-    "walletFormatBcknWalletUsernameAppendhashes": "KW-Username (appendhashes)",
-    "walletFormatBcknWalletUsername": "KW-Username (pre-appendhashes)",
+    "walletFormat": "Wallet format",
+    "walletFormatKristWallet": "KristWallet, KWallet (recommended)",
+    "walletFormatKristWalletUsernameAppendhashes": "KW-Username (appendhashes)",
+    "walletFormatKristWalletUsername": "KW-Username (pre-appendhashes)",
     "walletFormatJwalelset": "jwalelset",
-    "walletFormatApi": "Raw/API (utenti avanzati)",
+    "walletFormatApi": "Raw/API (advanced users)",
 
-    "walletSave": "Salva portafoglio in BcknWeb",
+    "walletSave": "Save this wallet in KristWeb",
 
-    "messageSuccessAdd": "Portafoglio aggiunto con successo!",
-    "messageSuccessCreate": "Portafoglio creato con successo!",
-    "messageSuccessEdit": "Portafoglio salvato con successo!",
+    "messageSuccessAdd": "Added wallet successfully!",
+    "messageSuccessCreate": "Created wallet successfully!",
+    "messageSuccessEdit": "Saved wallet successfully!",
 
-    "errorPasswordRequired": "La password è richiesta.",
-    "errorPrivatekeyRequired": "La chiave privata è richiesta.",
-    "errorUnexpectedTitle": "Errore imprevisto",
-    "errorUnexpectedDescription": "È stato riscontrato un errore durante l'aggiunta. Vedi la console per i dettagli.",
-    "errorUnexpectedEditDescription": "È stato riscontrato un errore durante la modifica. Vedi la console per i dettagli.",
-    "errorDuplicateWalletTitle": "Portafoglio già esistente",
-    "errorDuplicateWalletDescription": "Un portafoglio con questo indirizzo è già presente.",
-    "errorMissingWalletTitle": "Portafoglio non trovato",
-    "errorMissingWalletDescription": "Il portafoglio con questo indirizzo non è stato trovato.",
-    "errorDecryptTitle": "Password generale incorretta",
-    "errorDecryptDescription": "Errore durante la decriptazione del portafoglio. Assicurati di aver inserito la password generale corretta.",
-    "errorWalletLimitTitle": "Limite portafogli raggiunto",
-    "errorWalletLimitDescription": "Non puoi aggiungere ulteriori portafogli al momento."
+    "errorPasswordRequired": "Password is required.",
+    "errorPrivatekeyRequired": "Private key is required.",
+    "errorUnexpectedTitle": "Unexpected error",
+    "errorUnexpectedDescription": "There was an error while adding the wallet. See console for details.",
+    "errorUnexpectedEditDescription": "There was an error while editing the wallet. See console for details.",
+    "errorDuplicateWalletTitle": "Wallet already exists",
+    "errorDuplicateWalletDescription": "You already have a wallet for that address.",
+    "errorMissingWalletTitle": "Wallet not found",
+    "errorMissingWalletDescription": "The wallet you are trying to edit no longer exists.",
+    "errorDecryptTitle": "Incorrect master password",
+    "errorDecryptDescription": "Failed to decrypt the wallet password. Is the master password correct?",
+    "errorWalletLimitTitle": "Wallet limit reached",
+    "errorWalletLimitDescription": "You currently cannot add any more wallets."
   },
 
   "addContact": {
-    "modalTitle": "Aggiungi contatto",
-    "modalTitleEdit": "Modifica contatto",
+    "modalTitle": "Add contact",
+    "modalTitleEdit": "Edit contact",
 
-    "buttonSubmit": "Aggiungi",
-    "buttonSubmitEdit": "Salva",
+    "buttonSubmit": "Add",
+    "buttonSubmitEdit": "Save",
 
-    "contactLabel": "Etichetta",
-    "contactLabelPlaceholder":"Etichetta contatto (opzionale)",
-    "contactLabelMaxLengthError": "Non più lungo di 32 caratteri",
-    "contactLabelWhitespaceError": "Non può contenere solo spazi",
+    "contactLabel": "Label",
+    "contactLabelPlaceholder": "Contact label (optional)",
+    "contactLabelMaxLengthError": "No longer than 32 characters",
+    "contactLabelWhitespaceError": "Must not be only spaces",
 
-    "contactAddressLabel": "Indirizzo o nome",
+    "contactAddressLabel": "Address or name",
 
-    "messageSuccessAdd": "Contatto aggiunto con successo!",
-    "messageSuccessEdit": "Contatto salvato con successo!",
+    "messageSuccessAdd": "Added contact successfully!",
+    "messageSuccessEdit": "Saved contact successfully!",
 
-    "errorDuplicateContactTitle": "Contatto già esistente",
-    "errorDuplicateContactDescription": "Hai già un contatto con questo indirizzo.",
-    "errorMissingContactTitle": "Contatto non trovato",
-    "errorMissingContactDescription": "Il contatto che stai provando a modificare non esiste più.",
-    "errorContactLimitTitle": "Limite contatti raggiunto",
-    "errorContactLimitDescription": "Non puoi aggiungere ulteriori contatti al momento."
+    "errorDuplicateContactTitle": "Contact already exists",
+    "errorDuplicateContactDescription": "You already have a contact for that address.",
+    "errorMissingContactTitle": "Contact not found",
+    "errorMissingContactDescription": "The contact you are trying to edit no longer exists.",
+    "errorContactLimitTitle": "Contact limit reached",
+    "errorContactLimitDescription": "You currently cannot add any more contacts."
   },
 
   "dashboard": {
     "siteTitle": "Dashboard",
 
-    "inDevBanner": "Welcome to the BcknWeb v2 private beta! This site is still in development, so most features are currently missing. Please report all bugs on <1>GitHub</1>. Thanks!",
-    "inDevBanner2": "Welcome to the BcknWeb v2 public beta! This site is relatively new, so please report any bugs on <1>GitHub</1>. Thanks!",
+    "inDevBanner": "Welcome to the KristWeb v2 private beta! This site is still in development, so most features are currently missing. Please report all bugs on <1>GitHub</1>. Thanks!",
+    "inDevBanner2": "Welcome to the KristWeb v2 public beta! This site is relatively new, so please report any bugs on <1>GitHub</1>. Thanks!",
 
-    "walletOverviewCardTitle": "Portafogli",
-    "walletOverviewTotalBalance": "Saldo totale",
-    "walletOverviewNames": "Nomi",
-    "walletOverviewNamesCount": "{{count, number}} nome",
-    "walletOverviewNamesCount_plural": "{{count, number}} nomi",
-    "walletOverviewNamesCountEmpty": "Nessun nome",
-    "walletOverviewSeeMore": "Vedi tutto {{count, number}}...",
-    "walletOverviewAddWallets": "Aggiungi portafoglio...",
+    "walletOverviewCardTitle": "Wallets",
+    "walletOverviewTotalBalance": "Total balance",
+    "walletOverviewNames": "Names",
+    "walletOverviewNamesCount": "{{count, number}} name",
+    "walletOverviewNamesCount_plural": "{{count, number}} names",
+    "walletOverviewNamesCountEmpty": "No names",
+    "walletOverviewSeeMore": "See all {{count, number}}...",
+    "walletOverviewAddWallets": "Add wallets...",
 
-    "transactionsCardTitle": "Transazioni",
-    "transactionsError": "È stato riscontrato un errore durante il recupero delle transazioni. Vedi la console per i dettagli.",
+    "transactionsCardTitle": "Transactions",
+    "transactionsError": "There was an error fetching your transactions. See the console for details.",
 
-    "blockValueCardTitle": "Valore blocco",
-    "blockValueBaseValue": "Valore base (<1></1>)",
-    "blockValueBaseValueNames": "{{count, number}} nome",
-    "blockValueBaseValueNames_plural": "{{count, number}} nomi",
-    "blockValueNextDecrease": "Diminuisce di <1></1> in <3>{{count, number}} blocco</3>",
-    "blockValueNextDecrease_plural": "Diminuisce di <1></1> in <3>{{count, number}} blocchi</3>",
-    "blockValueReset": "Sii reimposta in <1>{{count, number}} blocco</1>",
-    "blockValueReset_plural": "Sii reimposta in <1>{{count, number}} blocchi</1>",
-    "blockValueEmptyDescription": "Il valore del blocco aumenta quando dei <1>nomi</1> vengono acquistati.",
+    "blockValueCardTitle": "Block value",
+    "blockValueBaseValue": "Base value (<1></1>)",
+    "blockValueBaseValueNames": "{{count, number}} name",
+    "blockValueBaseValueNames_plural": "{{count, number}} names",
+    "blockValueNextDecrease": "Decreases by <1></1> in <3>{{count, number}} block</3>",
+    "blockValueNextDecrease_plural": "Decreases by <1></1> in <3>{{count, number}} blocks</3>",
+    "blockValueReset": "Resets in <1>{{count, number}} block</1>",
+    "blockValueReset_plural": "Resets in <1>{{count, number}} blocks</1>",
+    "blockValueEmptyDescription": "The block value increases when <1>names</1> are purchased.",
 
-    "blockDifficultyCardTitle": "Difficoltà blocco",
-    "blockDifficultyError": "È stato riscontrato un errore durante il recupero della difficoltà del blocco. Vedi la console per i dettagli.",
-    "blockDifficultyHashRate": "Circa <1 />",
-    "blockDifficultyHashRateTooltip": "Stima della velocità di mining di hash combinata sulla rete, basata sul lavoro attuale.",
-    "blockDifficultyChartWork": "Difficoltà Blocco",
-    "blockDifficultyChartLinear": "Lineare",
-    "blockDifficultyChartLog": "Logaritmico",
+    "blockDifficultyCardTitle": "Block difficulty",
+    "blockDifficultyError": "There was an error fetching the block difficulty. See the console for details.",
+    "blockDifficultyHashRate": "Approx. <1 />",
+    "blockDifficultyHashRateTooltip": "Estimated combined network mining hash rate, based on the current work.",
+    "blockDifficultyChartWork": "Block Difficulty",
+    "blockDifficultyChartLinear": "Linear",
+    "blockDifficultyChartLog": "Logarithmic",
 
-    "motdCardTitle": "Messaggio del giorno",
-    "motdDebugMode": "Questo server di sviluppo è non è ufficiale. I saldi e le transazioni possono essere manipolati. Procedi con cautela.",
+    "motdCardTitle": "Server MOTD",
+    "motdDebugMode": "This server is an unofficial development server. Balances and transactions can be manipulated. Proceed with caution.",
 
-    "whatsNewCardTitle": "Cosa c'è di nuovo",
-    "whatsNewButton": "Cosa c'è di nuovo",
+    "whatsNewCardTitle": "What's new",
+    "whatsNewButton": "What's new",
 
-    "tipsCardTitle": "Suggerimento",
-    "tipsPrevious": "Prec.",
-    "tipsNext": "Pros.",
+    "tipsCardTitle": "Tip of the day",
+    "tipsPrevious": "Prev",
+    "tipsNext": "Next",
     "tips": {
-      "0": "Check out what's new in Bckn and BcknWeb on the [What's New page](/whatsnew)!",
+      "0": "Check out what's new in Krist and KristWeb on the [What's New page](/whatsnew)!",
       "1": "You can quickly navigate through tables with the arrow keys on desktop.",
       "2": "You can click on table headers to sort them.",
       "3": "You can filter by categories in the [My Wallets](/wallets) page by clicking the filter icon in the table header.",
-      "4": "The [settings page](/settings) has many advanced options to personalise your BcknWeb experience.",
+      "4": "The [settings page](/settings) has many advanced options to personalise your KristWeb experience.",
       "5": "Generate pre-filled transaction links with the new [Request page](/request).",
       "6": "Be sure to backup [your wallets](/wallets)!",
-      "7": "Quickly search the Bckn network with the keyboard shortcut Ctrl+K (Cmd+K on macOS).",
+      "7": "Quickly search the Krist network with the keyboard shortcut Ctrl+K (Cmd+K on macOS).",
       "8": "Add contacts in the [address book](/contacts) to quickly send them transactions.",
       "9": "A 'bumped' transaction is a transaction sent to and from the same address.",
       "10": "The 'block difficulty' chart can be shown with a logarithmic scale to see small changes easier at lower difficulties.",
@@ -413,49 +416,49 @@
   },
 
   "credits": {
-    "title": "Crediti",
-    "madeBy": "Creato da <1>{{authorName}}</1>",
-    "hostedBy": "Ospitato da <1>{{host}}</1>",
-    "supportersTitle": "Sostenitori",
-    "supportersDescription": "Questo progetto è stato reso possibile grazie a questi fantastici sostenitori:",
-    "supportButton": "Supporta BcknWeb",
-    "translatorsTitle": "Traduttori",
-    "translatorsDescription": "Questo progetto è stato tradotto da questo fantastici contributori:",
-    "translateButton": "Traduci BcknWeb",
-    "tmpim": "Creato da tmpim",
+    "title": "Credits",
+    "madeBy": "Made by <1>{{authorName}}</1>",
+    "hostedBy": "Hosted by <1>{{host}}</1>",
+    "supportersTitle": "Supporters",
+    "supportersDescription": "This project was made possible by the following amazing supporters:",
+    "supportButton": "Support KristWeb",
+    "translatorsTitle": "Translators",
+    "translatorsDescription": "This project was translated by the following amazing contributors:",
+    "translateButton": "Translate KristWeb",
+    "tmpim": "Created by tmpim",
 
     "versionInfo": {
-      "version": "Versione",
+      "version": "Version",
       "commitHash": "Commit",
-      "buildTime": "Ora del build",
-      "variant": "Variante build",
-      "license": "Licenza"
+      "buildTime": "Build time",
+      "variant": "Build variant",
+      "license": "License"
     },
 
     "privacyTitle": "Privacy",
     "privacy": {
-      "kristServer": "Server Bckn",
-      "kristServerDesc": "Le uniche informazioni private che il <1>Server Bckn</1> salva sono il tuo indirizzo IP, User-Agent del Browser e Origin, come parte dei log del webserver. Queste informazioni sono automaticamente eliminate dopo 30 giorni.",
-      "kristweb": "BcknWeb",
-      "kristwebDesc1": "BcknWeb utilizza un server di <1>Sentry</1> improprio per la segnalazione automatica di errori. Questo sistema salva il tuo indirizzo IP, User-Agent del browser, Origin, breadcrumbs, ed i dettagli di qualsiasi errore che viene automaticamente segnalato. Queste informazioni sono automaticamente eliminate dopo 30 giorni.",
-      "kristwebDesc2": "If you have an ad-blocking or tracker-blocking extension such as <1>uBlock Origin</1> <strong>(recommended)</strong>, our Sentry system is already blocked by the built-in lists, so you do not have to worry about your privacy. You can also opt-out of error reporting in the <4>settings page</4>. That said, if you’d like to help us by providing more detailed error reports, then please consider making an exception for BcknWeb in your tracker blocker software. This site does not serve ads.",
+      "kristServer": "Krist Server",
+      "kristServerDesc": "The only PII that the <1>Krist Server</1> stores is your IP address, User-Agent and Origin, as part of the webserver logs. This information is automatically purged after 30 days.",
+      "kristweb": "KristWeb",
+      "kristwebDesc1": "KristWeb uses a self-hosted <1>Sentry</1> server for automatic error reporting. This system stores your IP address, User-Agent, Origin, breadcrumbs, and the details for any errors that get automatically reported. This information is automatically purged after 30 days.",
+      "kristwebDesc2": "If you have an ad-blocking or tracker-blocking extension such as <1>uBlock Origin</1> <strong>(recommended)</strong>, our Sentry system is already blocked by the built-in lists, so you do not have to worry about your privacy. You can also opt-out of error reporting in the <4>settings page</4>. That said, if you’d like to help us by providing more detailed error reports, then please consider making an exception for KristWeb in your tracker blocker software. This site does not serve ads.",
       "kristwebDesc3": "If you have any questions or concerns, please contact the developers."
     }
   },
 
   "settings": {
-    "siteTitle": "Impostazioni",
-    "title": "Impostazioni",
+    "siteTitle": "Settings",
+    "title": "Settings",
 
-    "messageSuccess": "Impostazioni salvate correttamente!",
+    "messageSuccess": "Setting changed successfully!",
 
-    "settingIntegerSave": "Salva",
+    "settingIntegerSave": "Save",
 
-    "menuLanguage": "Lingua",
+    "menuLanguage": "Language",
 
-    "subMenuBackups": "Gestisci backup",
-    "importBackup": "Importa portafogli",
-    "exportBackup": "Esporta portafogli",
+    "subMenuBackups": "Manage backups",
+    "importBackup": "Import wallets",
+    "exportBackup": "Export wallets",
 
     "subMenuMasterPassword": "Master password",
     "changeMasterPassword": "Change master password",
@@ -498,7 +501,7 @@
     "subTitleTranslations": "Translations",
 
     "translations": {
-      "errorMissingLanguages": "The languages.json file seems to be missing. Was BcknWeb compiled correctly?",
+      "errorMissingLanguages": "The languages.json file seems to be missing. Was KristWeb compiled correctly?",
       "errorNoKeys": "No translation keys",
 
       "columnLanguageCode": "Code",
@@ -520,7 +523,7 @@
 
   "breadcrumb": {
     "dashboard": "Dashboard",
-    "Portafogli": "Portafogli",
+    "wallets": "Wallets",
 
     "settings": "Settings",
     "settingsDebug": "Debug",
@@ -528,12 +531,12 @@
   },
 
   "ws": {
-    "errorToken": "There was an error connecting to the Bckn websocket server.",
-    "errorWS": "There was an error connecting to the Bckn websocket server (code <1>{{code}}</1>)."
+    "errorToken": "There was an error connecting to the Krist websocket server.",
+    "errorWS": "There was an error connecting to the Krist websocket server (code <1>{{code}}</1>)."
   },
 
   "rateLimitTitle": "Rate limit hit",
-  "rateLimitDescription": "Too many requests were sent to the Bckn server in a short period of time. This is probably caused by a bug!",
+  "rateLimitDescription": "Too many requests were sent to the Krist server in a short period of time. This is probably caused by a bug!",
 
   "address": {
     "title": "Address",
@@ -549,8 +552,8 @@
     "nameCountEmpty": "No names",
     "firstSeen": "First seen",
 
-    "buttonSendBckn": "Send Bckn to {{address}}",
-    "buttonTransferBckn": "Transfer Bckn to {{address}}",
+    "buttonSendKrist": "Send Krist to {{address}}",
+    "buttonTransferKrist": "Transfer Krist to {{address}}",
     "buttonAddContact": "Add to address book",
     "buttonEditContact": "Edit contact",
     "buttonEditWallet": "Edit wallet",
@@ -568,9 +571,9 @@
     "namesSeeMore": "See all {{count, number}}...",
 
     "resultInvalidTitle": "Invalid address",
-    "resultInvalid": "That does not look like a valid Bckn address.",
+    "resultInvalid": "That does not look like a valid Krist address.",
     "resultNotFoundTitle": "Address not found",
-    "resultNotFound": "That address has not yet been initialised on the Bckn network.",
+    "resultNotFound": "That address has not yet been initialised on the Krist network.",
     "resultNotFound2": "That address has no transaction history yet.",
 
     "verifiedCardTitle": "Verified address",
@@ -589,14 +592,14 @@
   },
 
   "transactions": {
-    "title": "Network Transactions",
     "myTransactionsTitle": "My Transactions",
+    "globalTransactionsTitle": "Global Transactions",
     "nameHistoryTitle": "Name History",
     "nameTransactionsTitle": "Name Transactions",
     "searchTitle": "Transaction Search",
 
     "siteTitleWallets": "My Transactions",
-    "siteTitleNetworkAll": "Network Transactions",
+    "siteTitleNetworkGlobal": "Global Transactions",
     "siteTitleNetworkAddress": "{{address}}'s Transactions",
     "siteTitleNameHistory": "Name History",
     "siteTitleNameSent": "Name Transactions",
@@ -622,7 +625,7 @@
     "includeMined": "Include mined transactions",
 
     "resultInvalidTitle": "Invalid address",
-    "resultInvalid": "That does not look like a valid Bckn address.",
+    "resultInvalid": "That does not look like a valid Krist address.",
 
     "types": {
       "transferred": "Transferred",
@@ -641,11 +644,10 @@
 
   "names": {
     "titleWallets": "My Names",
-    "titleNetworkAll": "Network Names",
-    "titleNetworkAddress": "Network Names",
+    "titleNetworkGlobal": "Global Names",
 
     "siteTitleWallets": "My Names",
-    "siteTitleNetworkAll": "Network Names",
+    "siteTitleNetworkGlobal": "Global Names",
     "siteTitleNetworkAddress": "{{address}}'s Names",
 
     "columnName": "Name",
@@ -671,8 +673,8 @@
     "actionsViewName": "View name",
     "actionsViewOwner": "View owner's address",
     "actionsViewOriginalOwner": "View original owner's address",
-    "actionsSendBckn": "Send Bckn",
-    "actionsTransferBckn": "Transfer Bckn",
+    "actionsSendKrist": "Send Krist",
+    "actionsTransferKrist": "Transfer Krist",
     "actionsUpdateData": "Update data",
     "actionsTransferName": "Transfer name",
 
@@ -681,7 +683,7 @@
     "tableTotalEmpty": "No names",
 
     "resultInvalidTitle": "Invalid address",
-    "resultInvalid": "That does not look like a valid Bckn address.",
+    "resultInvalid": "That does not look like a valid Krist address.",
 
     "purchaseButton": "Purchase name"
   },
@@ -689,8 +691,8 @@
   "name": {
     "title": "Name",
 
-    "buttonSendBckn": "Send Bckn to {{name}}",
-    "buttonTransferBckn": "Transfer Bckn to {{name}}",
+    "buttonSendKrist": "Send Krist to {{name}}",
+    "buttonTransferKrist": "Transfer Krist to {{name}}",
     "buttonData": "Update data",
     "buttonTransferName": "Transfer name",
 
@@ -711,7 +713,7 @@
     "historyError": "There was an error fetching the name history. See the console for details.",
 
     "resultInvalidTitle": "Invalid name",
-    "resultInvalid": "That does not look like a valid Bckn name.",
+    "resultInvalid": "That does not look like a valid Krist name.",
     "resultNotFoundTitle": "Name not found",
     "resultNotFound": "That name does not exist."
   },
@@ -793,7 +795,7 @@
     "commonMetaColumnValue": "Value",
 
     "cardRawDataTitle": "Raw data",
-    "cardRawDataHelp": "The transaction exactly as it was returned by the Bckn API.",
+    "cardRawDataHelp": "The transaction exactly as it was returned by the Krist API.",
 
     "rawDataColumnKey": "Key",
     "rawDataColumnValue": "Value",
@@ -811,8 +813,8 @@
 
   "noWalletsResult": {
     "title": "No wallets yet",
-    "subTitle": "You currently have no wallets saved in BcknWeb, so there is nothing to see here yet. Would you like to add a wallet?",
-    "subTitleSendTransaction": "You currently have no wallets saved in BcknWeb, so you can't make a transaction yet. Would you like to add a wallet?",
+    "subTitle": "You currently have no wallets saved in KristWeb, so there is nothing to see here yet. Would you like to add a wallet?",
+    "subTitleSendTransaction": "You currently have no wallets saved in KristWeb, so you can't make a transaction yet. Would you like to add a wallet?",
     "button": "Add wallets",
     "buttonNetworkTransactions": "Network transactions",
     "buttonNetworkNames": "Network names"
@@ -824,7 +826,7 @@
   },
 
   "import": {
-    "description": "Paste the backup code (or import from a file below) and enter the corresponding master password. Backups from BcknWeb v1 are also supported.",
+    "description": "Paste the backup code (or import from a file below) and enter the corresponding master password. Backups from KristWeb v1 are also supported.",
 
     "masterPasswordPlaceholder": "Master password",
     "masterPasswordRequired": "Master password is required.",
@@ -844,8 +846,8 @@
     "modalButton": "Import",
 
     "detectedFormat": "<0>Detected format:</0> <2 />",
-    "detectedFormatBcknWebV1": "BcknWeb v1",
-    "detectedFormatBcknWebV2": "BcknWeb v2",
+    "detectedFormatKristWebV1": "KristWeb v1",
+    "detectedFormatKristWebV2": "KristWeb v2",
     "detectedFormatInvalid": "Invalid!",
 
     "progress": "Importing <1>{{count, number}}</1> item...",
@@ -871,11 +873,11 @@
       "successSkippedNoOverwrite": "A wallet with the same address ({{address}}) already exists, and you chose not to overwrite the label, so it was skipped.",
       "successImportSkipped": "A wallet with the same address ({{address}}) was already imported, so it was skipped.",
 
-      "warningSyncNode": "This wallet had a custom sync node, which is not supported in BcknWeb v2. The sync node was skipped.",
-      "warningIcon": "This wallet had a custom icon, which is not supported in BcknWeb v2. The icon was skipped.",
+      "warningSyncNode": "This wallet had a custom sync node, which is not supported in KristWeb v2. The sync node was skipped.",
+      "warningIcon": "This wallet had a custom icon, which is not supported in KristWeb v2. The icon was skipped.",
       "warningLabelInvalid": "The label for this wallet was invalid. The label was skipped.",
       "warningCategoryInvalid": "The category for this wallet was invalid. The category was skipped.",
-      "warningAdvancedFormat": "This wallet uses an advanced format ({{format}}), which has limited support in BcknWeb v2.",
+      "warningAdvancedFormat": "This wallet uses an advanced format ({{format}}), which has limited support in KristWeb v2.",
 
       "errorInvalidTypeString": "This wallet was not a string!",
       "errorInvalidTypeObject": "This wallet was not an object!",
@@ -901,8 +903,8 @@
       "successSkippedNoOverwrite": "A contact with the same address ({{address}}) already exists, and you chose not to overwrite the label, so it was skipped.",
       "successImportSkipped": "A contact with the same address ({{address}}) was already imported, so it was skipped.",
 
-      "warningSyncNode": "This contact had a custom sync node, which is not supported in BcknWeb v2. The sync node was skipped.",
-      "warningIcon": "This contact had a custom icon, which is not supported in BcknWeb v2. The icon was skipped.",
+      "warningSyncNode": "This contact had a custom sync node, which is not supported in KristWeb v2. The sync node was skipped.",
+      "warningIcon": "This contact had a custom icon, which is not supported in KristWeb v2. The icon was skipped.",
       "warningLabelInvalid": "The label for this contact was invalid. The label was skipped.",
 
       "errorInvalidTypeString": "This contact was not a string!",
@@ -933,7 +935,7 @@
       "errors": "There was <1>{{count, number}} error</1> while importing your backup.",
       "errors_plural": "There were <1>{{count, number}} errors</1> while importing your backup.",
 
-      "treeHeaderWallets": "Portafogli",
+      "treeHeaderWallets": "Wallets",
       "treeHeaderContacts": "Contacts",
 
       "treeWallet": "Wallet {{id}}",
@@ -951,8 +953,8 @@
     "buttonCopy": "Copy to clipboard"
   },
 
-  "walletLimitMessage": "You have more wallets stored than BcknWeb supports. This was either caused by a bug, or you bypassed it intentionally. Expect issues with syncing.",
-  "contactLimitMessage": "You have more contacts stored than BcknWeb supports. This was either caused by a bug, or you bypassed it intentionally. Expect issues with syncing.",
+  "walletLimitMessage": "You have more wallets stored than KristWeb supports. This was either caused by a bug, or you bypassed it intentionally. Expect issues with syncing.",
+  "contactLimitMessage": "You have more contacts stored than KristWeb supports. This was either caused by a bug, or you bypassed it intentionally. Expect issues with syncing.",
 
   "optionalFieldUnset": "(unset)",
 
@@ -974,7 +976,7 @@
     "errorInvalidWalletsOnly": "Invalid wallet address.",
     "errorEqual": "Recipient cannot be the same as the sender.",
 
-    "categoryWallets": "Portafogli",
+    "categoryWallets": "Wallets",
     "categoryOtherWallets": "Other wallets",
     "categoryAddressBook": "Address book",
     "categoryExactAddress": "Exact address",
@@ -1026,7 +1028,7 @@
     "payLargeConfirm": "Are you sure you want to send <1 />?",
     "payLargeConfirmHalf": "Are you sure you want to send <1 />? This is over half your balance!",
     "payLargeConfirmAll": "Are you sure you want to send <1 />? This is your entire balance!",
-    "payLargeConfirmDefault": "You are about to send your wallet private key and password to an unofficial Bckn server, which will give them access to your Bckn on the official server. Are you sure you want to do this?",
+    "payLargeConfirmDefault": "You are about to send your wallet private key and password to an unofficial Krist server, which will give them access to your Krist on the official server. Are you sure you want to do this?",
 
     "errorNotificationTitle": "Transaction failed",
     "successNotificationTitle": "Transaction successful",
@@ -1037,8 +1039,8 @@
   },
 
   "request": {
-    "title": "Request Bckn",
-    "siteTitle": "Request Bckn",
+    "title": "Request Krist",
+    "siteTitle": "Request Krist",
 
     "labelTo": "Request recipient",
     "labelAmount": "Request amount",
@@ -1053,15 +1055,15 @@
     "title": "Auth failed",
     "message": "You do not own this address.",
     "messageLocked": "This address was locked.",
-    "alert": "Message from the Bckn server:"
+    "alert": "Message from the Krist server:"
   },
 
   "whatsNew": {
     "title": "What's new",
     "siteTitle": "What's new",
 
-    "titleBckn": "Bckn",
-    "titleBcknWeb": "BcknWeb",
+    "titleKrist": "Krist",
+    "titleKristWeb": "KristWeb",
 
     "tooltipGitHub": "View on GitHub",
 
@@ -1078,7 +1080,7 @@
 
     "buttonAll": "All",
 
-    "warningTotalLimit": "You seem to have more than 1,000 names, which is not yet supported in BcknWeb v2. Please post an issue on GitHub.",
+    "warningTotalLimit": "You seem to have more than 1,000 names, which is not yet supported in KristWeb v2. Please post an issue on GitHub.",
     "errorLookup": "There was an error fetching the names. See the console for details."
   },
 
@@ -1101,6 +1103,8 @@
     "errorUnknown": "Unknown error transferring names. See console for details.",
     "errorNotificationTitle": "Name transfer failed",
 
+    // Note that the zero and singular cases of these warnings will never be
+    // shown, but they're provided for i18n compatibility.
     "warningMultipleNames": "Are you sure you want to transfer <1>{{count, number}}</1> name to <3 />?",
     "warningMultipleNames_plural": "Are you sure you want to transfer <1>{{count, number}}</1> names to <3 />?",
     "warningAllNames": "Are you sure you want to transfer <1>{{count, number}}</1> name to <3 />? This is all your names!",
@@ -1146,7 +1150,7 @@
 
   "noNamesResult": {
     "title": "No names yet",
-    "subTitle": "You currently have no names in any of your wallets saved in BcknWeb, so there is nothing to see here yet. Would you like to purchase a name?",
+    "subTitle": "You currently have no names in any of your wallets saved in KristWeb, so there is nothing to see here yet. Would you like to purchase a name?",
     "button": "Purchase name"
   },
 
@@ -1155,7 +1159,7 @@
 
     "nameCost": "Cost to purchase: <1 />",
 
-    "labelWallet": "Portafoglio",
+    "labelWallet": "Wallet",
     "labelName": "Name",
     "placeholderName": "Name",
 
@@ -1178,9 +1182,9 @@
     "nameAvailable": "Name is available!"
   },
 
-  "purchaseBckn": {
-    "modalTitle": "Purchase Bckn",
-    "connection": "A connection was just made to an unofficial Bckn server. Your passwords and Bckn wallets are at risk."
+  "purchaseKrist": {
+    "modalTitle": "Purchase Krist",
+    "connection": "A connection was just made to an unofficial Krist server. Your passwords and Krist wallets are at risk."
   },
 
   "syncWallets": {
@@ -1189,8 +1193,8 @@
   },
 
   "legacyMigration": {
-    "modalTitle": "BcknWeb v1 migration",
-    "description": "Welcome to BcknWeb v2! It looks like you have used BcknWeb v1 on this domain before.<br /><br /><strong>Please enter your master password to migrate your wallets to the new format.</strong> You will only have to do this once.",
+    "modalTitle": "KristWeb v1 migration",
+    "description": "Welcome to KristWeb v2! It looks like you have used KristWeb v1 on this domain before.<br /><br /><strong>Please enter your master password to migrate your wallets to the new format.</strong> You will only have to do this once.",
 
     "walletCount": "Detected <1>{{count, number}}</1> wallet",
     "walletCount_plural": "Detected <1>{{count, number}}</1> wallets",
@@ -1210,7 +1214,7 @@
 
     "forgotPassword": {
       "modalTitle": "Skip v1 migration",
-      "modalContent": "If you forgot your master password for BcknWeb v1, then you will not be able to migrate your wallets. You will never be asked again. Are you sure you want to skip migration?",
+      "modalContent": "If you forgot your master password for KristWeb v1, then you will not be able to migrate your wallets. You will never be asked again. Are you sure you want to skip migration?",
       "buttonSkip": "Skip"
     }
   },

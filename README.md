@@ -1,4 +1,4 @@
-# KristWeb v2 [![Donate on PayPal](https://img.shields.io/badge/PayPal-donate-0079C1?logo=paypal&style=flat-square)](https://paypal.me/lemmmy) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tmpim/KristWeb2/Deploy%20dev%20build?label=dev%20deploy&style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/tmpim/KristWeb2?style=flat-square) ![GitHub pull requests](https://img.shields.io/github/issues-pr/tmpim/KristWeb2?style=flat-square) ![GitHub package.json version](https://img.shields.io/github/package-json/v/tmpim/KristWeb2?style=flat-square) ![GitHub](https://img.shields.io/github/license/tmpim/KristWeb2?style=flat-square) 
+# BcknWeb v2
 
 <table align="center">
   <tr>
@@ -6,8 +6,8 @@
   </tr>
 </table>
 
-Rewrite of the Krist Web Wallet, in React. This is a fully clientside Krist 
-wallet that only needs to communicate to the Krist node itself. It securely 
+Fork of KristWeb adapted for Bckn cryptocurrency. This is a fully clientside Bckn 
+wallet that only needs to communicate to the Bckn node itself. It securely 
 saves wallets encrypted in your browser's Local Storage, so you don't have to 
 type in wallet passwords ever again!
 
@@ -15,7 +15,7 @@ type in wallet passwords ever again!
 
 ```sh
 git clone https://github.com/tmpim/KristWeb2
-cd KristWeb2
+cd BcknWeb
 
 yarn install
 npm start # Run the development server
@@ -25,7 +25,7 @@ npm start # Run the development server
 
 ```sh
 git clone https://github.com/tmpim/KristWeb2
-cd KristWeb2
+cd BcknWeb
 yarn install
 yarn run full-build # Build the production files
 ```

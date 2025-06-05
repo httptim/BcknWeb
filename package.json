@@ -1,15 +1,15 @@
 {
-  "name": "kristweb2",
+  "name": "bcknweb",
   "version": "2.3.0-static",
-  "description": "Client-side web wallet for Krist",
-  "homepage": "https://krist.club",
+  "description": "Client-side web wallet for Bckn",
+  "homepage": "https://bckn.dev",
   "license": "AGPL-3.0-only",
   "repository": {
     "type": "git",
     "url": "https://github.com/tmpim/KristWeb2.git"
   },
   "author": "Lemmmy",
-  "defaultSyncNode": "https://krist.dev",
+  "defaultSyncNode": "https://bckn.dev",
   "supportURL": "https://donate.lemmmy.pw",
   "supportersURL": "https://donate.lemmmy.pw/supporters.json",
   "translateURL": "https://github.com/tmpim/KristWeb2/blob/master/README.md#contributing-translations",

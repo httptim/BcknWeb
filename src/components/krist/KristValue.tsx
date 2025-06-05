@@ -41,9 +41,9 @@ export const KristValue = ({
 
   return (
     <span {...props} className={classes}>
-      {icon || ((currencySymbol || "KST") === "KST" && <KristSymbol />)}
+      {icon || ((currencySymbol || "BCN") === "BCN" && <KristSymbol />)}
       <span className="krist-value-amount">{(value || 0).toLocaleString()}</span>
-      {long && <span className="krist-currency-long">{currencySymbol || "KST"}</span>}
+      {long && <span className="krist-currency-long">{currencySymbol || "BCN"}</span>}
     </span>
   );
 };

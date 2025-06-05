@@ -14,6 +14,6 @@
 export function showConsoleWarning(): void {
   console.log("%cHold up!", "color: CornFlowerBlue; -webkit-text-stroke: 2px black; font-size: 72px; font-weight: bold;");
   console.log("%cDon't paste anything here!", "color: red; font-size: 18px; font-weight: bold;");
-  console.log("%cThis console is a feature intended for developers. Pasting code in here may result in you getting scammed, and losing your Krist.", "font-size: 18px; font-weight: bold;");
+  console.log("%cThis console is a feature intended for developers. Pasting code in here may result in you getting scammed, and losing your Bckn.", "font-size: 18px; font-weight: bold;");
   console.log("%cIf you know what you're doing, then please, carry on. Check out the GitHub: https://github.com/tmpim/KristWeb2", "font-size: 13px;");
 }
