@@ -8,10 +8,5 @@
       "destination": "/index.html"
     }
   ],
-  "installCommand": "npm install --legacy-peer-deps",
-  "functions": {
-    "api": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "installCommand": "npm install --legacy-peer-deps"
 }
