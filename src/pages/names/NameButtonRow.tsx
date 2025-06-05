@@ -38,14 +38,14 @@ export function NameButtonRow({
   const [usingTopMenu, set, unset] = useTopMenuOptions();
   useEffect(() => {
     set(<>
-      {/* Send/transfer Krist */}
+      {/* Send/transfer Bckn */}
       <Menu.Item
         icon={myWallet ? <SwapOutlined /> : <SendOutlined />}
         onClick={() => promptAuth(false, () =>
           openSendTx(undefined, nameWithSuffix))}
       >
         {t(
-          tKey(myWallet ? "buttonTransferKrist" : "buttonSendKrist"),
+          tKey(myWallet ? "buttonTransferBckn" : "buttonSendBckn"),
           { name: nameWithSuffix }
         )}
       </Menu.Item>
@@ -107,7 +107,7 @@ function Buttons({
   const promptAuth = useAuth();
 
   return <Space wrap>
-    {/* Send/transfer Krist button */}
+    {/* Send/transfer Bckn button */}
     <Button
       type="primary"
       icon={myWallet
@@ -117,7 +117,7 @@ function Buttons({
         openSendTx(undefined, nameWithSuffix))}
     >
       {t(
-        tKey(myWallet ? "buttonTransferKrist" : "buttonSendKrist"),
+        tKey(myWallet ? "buttonTransferBckn" : "buttonSendBckn"),
         { name: nameWithSuffix }
       )}
     </Button>

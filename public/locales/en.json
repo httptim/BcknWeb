@@ -386,7 +386,7 @@
     "blockDifficultyChartLog": "Logarithmic",
 
     "motdCardTitle": "Server MOTD",
-    "motdDebugMode": "This server is an unofficial development server. Balances and transactions can be manipulated. Proceed with caution.",
+    "motdDebugMode": "This server is a development server.",
 
     "whatsNewCardTitle": "What's new",
     "whatsNewButton": "What's new",
@@ -1028,7 +1028,7 @@
     "payLargeConfirm": "Are you sure you want to send <1 />?",
     "payLargeConfirmHalf": "Are you sure you want to send <1 />? This is over half your balance!",
     "payLargeConfirmAll": "Are you sure you want to send <1 />? This is your entire balance!",
-    "payLargeConfirmDefault": "You are about to send your wallet private key and password to an unofficial Bckn server, which will give them access to your Bckn on the official server. Are you sure you want to do this?",
+    "payLargeConfirmDefault": "Are you sure you want to send this transaction?",
 
     "errorNotificationTitle": "Transaction failed",
     "successNotificationTitle": "Transaction successful",
@@ -1184,7 +1184,7 @@
 
   "purchaseBckn": {
     "modalTitle": "Purchase Bckn",
-    "connection": "A connection was just made to an unofficial Bckn server. Your passwords and Bckn wallets are at risk."
+    "connection": "Connected to Bckn server."
   },
 
   "syncWallets": {

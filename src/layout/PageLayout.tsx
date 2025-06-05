@@ -46,8 +46,8 @@ export const PageLayout: FC<PageLayoutProps> = ({
   const history = useHistory();
 
   useEffect(() => {
-    if      (siteTitle)    document.title = `${siteTitle} - KristWeb`;
-    else if (siteTitleKey) document.title = `${t(siteTitleKey)} - KristWeb`;
+    if      (siteTitle)    document.title = `${siteTitle} - BcknWeb`;
+    else if (siteTitleKey) document.title = `${t(siteTitleKey)} - BcknWeb`;
   }, [t, siteTitle, siteTitleKey]);
 
   const classes = classNames("page-layout", className, {

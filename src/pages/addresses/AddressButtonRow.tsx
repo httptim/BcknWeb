@@ -46,7 +46,7 @@ export function AddressButtonRow({
   const [usingTopMenu, set, unset] = useTopMenuOptions();
   useEffect(() => {
     set(<>
-      {/* Send/transfer Krist */}
+      {/* Send/transfer Bckn */}
       <Menu.Item
         icon={myWallet ? <SwapOutlined /> : <SendOutlined />}
         disabled={isV1}
@@ -54,7 +54,7 @@ export function AddressButtonRow({
           openSendTx(undefined, address))}
       >
         {t(
-          tKey(myWallet ? "buttonTransferKrist" : "buttonSendKrist"),
+          tKey(myWallet ? "buttonTransferBckn" : "buttonSendBckn"),
           { address }
         )}
       </Menu.Item>
@@ -123,13 +123,13 @@ function Buttons({
       openSendTx(undefined, address))}
   >
     {t(
-      tKey(myWallet ? "buttonTransferKrist" : "buttonSendKrist"),
+      tKey(myWallet ? "buttonTransferBckn" : "buttonSendBckn"),
       { address }
     )}
   </Button>;
 
   return <>
-    {/* Send/transfer Krist button */}
+    {/* Send/transfer Bckn button */}
     {isV1
       ? ( // Disable the button and show a tooltip for V1 addresses
         <Tooltip title={tStr("tooltipV1Address")}>

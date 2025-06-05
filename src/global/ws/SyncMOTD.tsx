@@ -54,12 +54,7 @@ export async function updateMOTD(): Promise<void> {
   };
   store.dispatch(nodeActions.setMOTD(motdBase));
 
-  if (motdBase.debugMode) {
-    setTimeout(() => {
-      message.warning("This server is an unofficial server. Your passwords or K"
-      + "rist may be stolen. Proceed with caution.", 20);
-    }, 60000);
-  }
+  // Removed warning message for unofficial servers
 }
 
 /** Sync the MOTD with the Krist node on startup. */

@@ -55,8 +55,10 @@ export function Brand(): JSX.Element {
       tag = <Tag color={variant}>{tagContents.join(".")}</Tag>;
     }
   } catch (e) {
-    // If not a valid semver, show the git hash as a dev tag
-    if (gitVersion && gitVersion !== "2.3.0-static") {
+    // If not a valid semver, don't show a tag in production
+    // Only show git hash in development
+    const isDev = process.env.NODE_ENV === 'development';
+    if (isDev && gitVersion && gitVersion !== "2.3.0-static") {
       tag = <Tag color="red">dev-{gitVersion.substring(0, 7)}</Tag>;
     }
   }
