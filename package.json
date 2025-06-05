@@ -14,6 +14,10 @@
   "supportersURL": "https://donate.lemmmy.pw/supporters.json",
   "translateURL": "https://github.com/tmpim/KristWeb2/blob/master/README.md#contributing-translations",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0 <18.0.0",
+    "yarn": ">=1.22.0"
+  },
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
     "@sentry/react": "^6.2.3",
@@ -67,13 +71,13 @@
     "workbox-strategies": "^6.1.1"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider craco start",
     "clean": "rimraf build",
-    "build": "craco build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider craco build",
     "optimise": "gzip -kr build/static",
-    "full-build": "yarn run clean; NODE_ENV=production yarn run build; yarn run optimise",
-    "analyze-build": "FORCE_ANALYZE=true yarn run build",
-    "test": "craco test"
+    "full-build": "npm run clean && NODE_ENV=production NODE_OPTIONS=--openssl-legacy-provider npm run build && npm run optimise",
+    "analyze-build": "FORCE_ANALYZE=true NODE_OPTIONS=--openssl-legacy-provider npm run build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider craco test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -142,5 +146,9 @@
     "transformIgnorePatterns": [
       "/node_modules/(?!antd|@ant-design|rc-.+?|@babel/runtime).+(js|jsx)$"
     ]
+  },
+  "resolutions": {
+    "postcss": "^8.4.31",
+    "postcss-safe-parser": "^6.0.0"
   }
 }
