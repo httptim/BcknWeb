@@ -30,23 +30,35 @@ export function Brand(): JSX.Element {
 
   const gitVersion: string = __GIT_VERSION__;
 
-  const major = semverMajor(gitVersion);
-  const minor = semverMinor(gitVersion);
-  const patch = semverPatch(gitVersion);
-  const prerelease = semverPrerelease(gitVersion);
-
-  const isGit = prerelease ? GIT_RE.test(prerelease.join("")) : false;
-
-  const { isDirty, isDev } = getDevState();
-
-  // Convert semver prerelease parts to Bootstrap badge
-  const tagContents = isDirty || isDev
-    ? ["dev"]
-    : (isGit ? null : prerelease);
+  // Handle non-semver git versions (like "792c78f-dirty")
+  let major = 2, minor = 3, patch = 0;
+  let prerelease = null;
   let tag = null;
-  if (tagContents && tagContents.length) {
-    const variant = prereleaseTagColours[tagContents[0]] || undefined;
-    tag = <Tag color={variant}>{tagContents.join(".")}</Tag>;
+
+  try {
+    // Try to parse as semver
+    major = semverMajor(gitVersion);
+    minor = semverMinor(gitVersion);
+    patch = semverPatch(gitVersion);
+    prerelease = semverPrerelease(gitVersion);
+
+    const isGit = prerelease ? GIT_RE.test(prerelease.join("")) : false;
+    const { isDirty, isDev } = getDevState();
+
+    // Convert semver prerelease parts to Bootstrap badge
+    const tagContents = isDirty || isDev
+      ? ["dev"]
+      : (isGit ? null : prerelease);
+    
+    if (tagContents && tagContents.length) {
+      const variant = prereleaseTagColours[tagContents[0]] || undefined;
+      tag = <Tag color={variant}>{tagContents.join(".")}</Tag>;
+    }
+  } catch (e) {
+    // If not a valid semver, show the git hash as a dev tag
+    if (gitVersion && gitVersion !== "2.3.0-static") {
+      tag = <Tag color="red">dev-{gitVersion.substring(0, 7)}</Tag>;
+    }
   }
 
   return <div className="site-header-brand">

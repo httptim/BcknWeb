@@ -1,5 +1,5 @@
 {
-  "buildCommand": "NODE_OPTIONS='--openssl-legacy-provider' npm run build",
+  "buildCommand": "DISABLE_SENTRY=true NODE_OPTIONS='--openssl-legacy-provider' npm run build",
   "outputDirectory": "build",
   "framework": "create-react-app",
   "rewrites": [
@@ -8,5 +8,27 @@
       "destination": "/index.html"
     }
   ],
-  "installCommand": "npm install --legacy-peer-deps"
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "DISABLE_SENTRY": "true"
+  },
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ]
+    }
+  ]
 }
