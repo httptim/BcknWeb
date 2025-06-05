@@ -36,7 +36,7 @@ export function PurchaseKrist({
   visible,
   setVisible
 }: Props): JSX.Element {
-  const { t, tStr } = useTFns("purchaseKrist.");
+  const { t, tStr } = useTFns("purchaseBckn.");
 
   return <Modal
     visible={visible}

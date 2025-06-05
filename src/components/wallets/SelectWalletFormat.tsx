@@ -17,11 +17,11 @@ export function SelectWalletFormat({ initialFormat }: Props): JSX.Element {
   const { t } = useTranslation();
 
   return <Select>
-    <Select.Option value="kristwallet">{t("addWallet.walletFormatKristWallet")}</Select.Option>
+    <Select.Option value="kristwallet">{t("addWallet.walletFormatBcknWallet")}</Select.Option>
 
     {(advancedWalletFormats || ADVANCED_FORMATS.includes(initialFormat)) && <>
-      <Select.Option value="kristwallet_username_appendhashes">{t("addWallet.walletFormatKristWalletUsernameAppendhashes")}</Select.Option>
-      <Select.Option value="kristwallet_username">{t("addWallet.walletFormatKristWalletUsername")}</Select.Option>
+      <Select.Option value="kristwallet_username_appendhashes">{t("addWallet.walletFormatBcknWalletUsernameAppendhashes")}</Select.Option>
+      <Select.Option value="kristwallet_username">{t("addWallet.walletFormatBcknWalletUsername")}</Select.Option>
       <Select.Option value="jwalelset">{t("addWallet.walletFormatJwalelset")}</Select.Option>
     </>}
 
