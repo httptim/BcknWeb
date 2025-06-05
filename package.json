@@ -15,8 +15,8 @@
   "translateURL": "https://github.com/tmpim/KristWeb2/blob/master/README.md#contributing-translations",
   "private": true,
   "engines": {
-    "node": ">=14.0.0 <18.0.0",
-    "yarn": ">=1.22.0"
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
   },
   "dependencies": {
     "@ant-design/icons": "^4.5.0",
