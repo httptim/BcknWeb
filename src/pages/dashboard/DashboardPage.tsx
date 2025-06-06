@@ -1,17 +1,9 @@
 // Copyright (c) 2020-2021 Drew Lemmy
 // This file is part of KristWeb 2 under AGPL-3.0.
 // Full details: https://github.com/tmpim/KristWeb2/blob/master/LICENSE.txt
-import { Row, Col, Alert } from "antd";
-
-import { useSelector } from "react-redux";
-import { RootState } from "@store";
+import { Row, Col } from "antd";
 
 import { PageLayout } from "@layout/PageLayout";
-
-import { Trans } from "react-i18next";
-import { useTFns } from "@utils/i18n";
-
-import { InDevBanner } from "./InDevBanner";
 
 import { WalletOverviewCard } from "./WalletOverviewCard";
 import { TransactionsCard } from "./TransactionsCard";
@@ -20,16 +12,12 @@ import { BlockDifficultyCard } from "./BlockDifficultyCard";
 import { MOTDCard } from "./MOTDCard";
 import { TipsCard } from "./TipsCard";
 
-import { useMiningEnabled, useSyncNode } from "@api";
-import { getAuthorInfo } from "@utils";
+import { useMiningEnabled } from "@api";
 import { SyncDetailedWork } from "@global/ws/SyncDetailedWork";
 
 import "./DashboardPage.less";
 
 export function DashboardPage(): JSX.Element {
-  const { tKey } = useTFns("dashboard.");
-  const baseURL = useSyncNode();
-  const { gitURL } = getAuthorInfo();
 
   const miningEnabled = useMiningEnabled();
 
@@ -39,8 +27,6 @@ export function DashboardPage(): JSX.Element {
       * work will only be fetched when a block is mined while the Dashboard
       * page is actually open and active. */}
     <SyncDetailedWork />
-
-    <InDevBanner />
 
     <Row gutter={16} className="dashboard-main-row">
       <Col span={24} lg={10} xxl={12}><WalletOverviewCard /></Col>
